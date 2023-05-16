@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<header th:fragment="not-logged-in-header">
+    <div>
+        <img class="inline" src="images/logo.png" alt="logo"/>
+        <h1 class="inline"> Chat App </h1>
+    </div>
+    <nav>
+        <a class="links" href="/">Home</a>
+        <a class="links" href="/register">Register</a>
+        <a class="links" href="/login">Login</a>
+        <a class="links" href="/profile">Profile</a>
+        <a class="links" href="/chat-room">Chat room</a>
+        <a class="links" href="/members">Members</a>
+    </nav>
+</header>
